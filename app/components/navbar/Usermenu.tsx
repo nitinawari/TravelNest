@@ -18,7 +18,7 @@ const Usermenu = () => {
 
                            <div 
                            onClick={()=>{}}
-                            className="hidden md:block text-sm font-semibold py-3 px-4 rounded-full hover:bg-neutral-100 transition cursor-pointer  "> 
+                            className="hidden md:block text-sm font-semibold py-3 px-4  hover:border-[1px] rounded-full hover:bg-neutral-100 transition cursor-pointer  "> 
                                     Airbnb your home
                            </div>
                            <div onClick={toggleOpen}
