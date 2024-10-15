@@ -1,10 +1,11 @@
 'use client'
+import { Toaster } from "react-hot-toast";
 import { BiSearch } from "react-icons/bi";
 
 const Search = () => {
          return (
                   <div className=" border-[1px] w-full md:w-auto  py-2 rounded-full sahdow-sm  hover:shadow-sm transition  cursor-pointer " >
-                  
+                  <Toaster />
                     <div className=" flex flex-row items-center justify-content " >
                                   
                         <div className=" text-sm font-semibold px-6">
